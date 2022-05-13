@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midias em HTML5</title>
+</head>
+<body>
+  <h1>Imagem dinámica</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+  <picture>
+    <source media="(max-width:750px)" srcset="imagens/css300.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/html700.png" type="image/png">
+    <img src="imagens/html1000.png" alt="imagem flexibel">
+  </picture>
+  <h1>Audios</h1>
+  <p>Reproducindo Audio</p>
+  <audio src="midia/Smoke Jacket Blues - TrackTribe.mp3" controls autoplay></audio>
+  <p>Também podemos colocar áudios assim</p>
+  <audio preload="metadata" controls autoplay loop>
+    <source src="midia/A Year Ago - NEFFEX.mp3" type="audio/mpeg">
+    <p>Infelizmente seu navegador não consegue reproducir o áudio.<a href="midia/A Year Ago - NEFFEX.mp3">Clique aqui para baixar o arquivo</a> </p>
+  </audio>
+  <h1>Vídeos</h1>
+  <p>Inserindo vídeos hospedados localmente</p>
+  <video src="video/pexels-anna-nekrashevich-7814423.mp4" width="500" controls></video>
+<!--E o mesmo processo que o audio-->
+  <video width="500" controls autoplay loop>
+    <source src="video/pexels-anna-nekrashevich-7814423.mp4" type="video/mp4">
+
+    <!-- Colocar varios formatos de videos pois serão abertos com navegadores diferentes.
+    <source src="video/pexels-anna-nekrashevich-7814423.m4v" type="video/mp4">
+    <source src="video/pexels-anna-nekrashevich-7814423.webm" type="video/webm">
+    <source src="video/pexels-anna-nekrashevich-7814423.ogv" type="video/ogv"> -->
+
+  </video>
+  <h1>Incorporação de Vídeos Externos</h1>
+  <p>Inserindo Vídeo do Youtube</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aXJ_Ub1xbhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

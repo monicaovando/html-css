@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+  background: rgb(252, 243, 243);
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin: 30px auto 30px auto;
+  text-transform: uppercase;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-indent: 1px;
+  
+
+}
+
+nav > a {
+  color: #000;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+h2 {
+  font-size: 1.5em;
+  color: black;
+  margin: 10px 0;
+}
+
+footer {
+  background: rgb(179, 173, 173);
+  border: 2px 0 solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links na Web</title>
+</head>
+<body>
+  <h1>Usando links externos</h1>
+  <p>Você pode acessar o meu <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositório público no GitHub</a></p>
+  <!--Target abre outra aba no navegador, indicado quando é de outro site-->
+  <h1>Usando link internos</h1>
+  <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a> </p>
+  <p>Existe também a possibilidade de ensinar ao navegador para não seguir o site externo <a href="https://www.hostnet.com.br" hreflang="pt-br" target="_blank" rel="nofollow">Hostnet</a> serve para o mecanismo de pesquisa não seguir esta página</p>
+  <p>Você pode acessar a nossa <a href="noticias/pag003.html" target="_self">página de noticias.</a></p>
+  <!-- Abrindo Links
+      _blank nova janela
+      _self na mesma janela
+      _top desfazer todos os frames e abrir o navegador completo._parent similar a top, referencia a janela mãe.-->
+  <h1>Links para Download</h1>
+  <ul>
+    <li><a href="livro/Resume Gustavo Gonzalez.pdf" download="Resume Gustavo Gonzalez.pdf" type="application/pdf">Baixar livro PDF</a></li>
+    <li><a href="livro/Resume Gustavo Gonzalez.zip" download="Resume Gustavo Gonzalez.zip" type="application/zip">Baixar livro compactado zip</a></li>
+  </ul>
+</body>
+</html>
