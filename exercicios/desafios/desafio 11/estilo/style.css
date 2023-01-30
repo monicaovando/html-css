@@ -16,7 +16,7 @@ html, body {
   font-family: var(--font1);
 }
 header {
-  background-color: #99582a;
+  background-color: #936639;
   color: whitesmoke;
   text-align: center;
 }
@@ -78,7 +78,7 @@ section.imagem > p {
 }
 
 footer {
-  background-color: #432818;
+  background-color: #7f5539;
   color: white;
   text-align: center;
   padding: 10px;
